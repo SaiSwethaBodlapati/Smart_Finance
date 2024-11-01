@@ -38,7 +38,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/fonts"
-            android:text=" Smart Finance"
+            android:text="Smart Finance"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/etEmail"
         android:layout_centerInParent="true"
-        android:text="Login"
+        android:text="Sign In Now"
         android:textStyle="bold"
         android:textColor="@color/theme_color"
         android:textSize="30sp" />
@@ -156,4 +156,3 @@
             android:textStyle="bold"/>
     </LinearLayout>
 </RelativeLayout>
-
