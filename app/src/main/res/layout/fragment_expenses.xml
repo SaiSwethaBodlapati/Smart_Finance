@@ -26,8 +26,9 @@
             android:foregroundGravity="center"
             android:gravity="center"
             android:background="@color/white"
-            android:textColor="@color/theme_color"
-            android:textSize="20dp"
+            android:textSize="18sp"
+            android:elevation="4dp"
+            android:textColor="@color/text_color"
             android:text="Change Month"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
@@ -46,5 +47,17 @@
 
 
     <!-- Floating Action Button (FAB) to add expenses -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/addd"
+        app:backgroundTint="@color/white"
+        android:contentDescription="Add new expense"
+        android:tint="@android:color/black" />
 
 </LinearLayout>
