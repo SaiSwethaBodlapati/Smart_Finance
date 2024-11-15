@@ -18,7 +18,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 //MaiActivity inherits AppCompatActivity 
 public class MainActivity extends AppCompatActivity {
 
-    //Declaration of Fragments to be used
+    //Declaration  of Fragments to be used
     private Fragment salaryFragment;
     private Fragment expensesFragment;
     private Fragment profileFragment;
