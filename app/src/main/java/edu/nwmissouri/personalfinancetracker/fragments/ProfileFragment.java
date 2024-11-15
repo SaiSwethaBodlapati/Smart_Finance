@@ -13,8 +13,9 @@ import edu.nwmissouri.personalfinancetracker.R;
 
 public class ProfileFragment extends Fragment {
 
+    // Required empty public constructor for fragment
     public ProfileFragment() {
-        // Required empty public constructor
+        //empty body
     }
 
     @Override
@@ -35,6 +36,7 @@ public class ProfileFragment extends Fragment {
         emailTextView.setText(DatabaseManager.getInstance().getEmail());
         mobileTextView.setText(DatabaseManager.getInstance().getMobile());
 
+        // Returning the inflated view
         return rootView;
     }
 }
