@@ -15,8 +15,10 @@ import edu.nwmissouri.personalfinancetracker.fragments.SalaryFragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+//MaiActivity inherits AppCompatActivity 
 public class MainActivity extends AppCompatActivity {
 
+    //Declaration of Fragments to be used
     private Fragment salaryFragment;
     private Fragment expensesFragment;
     private Fragment profileFragment;
@@ -60,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
 
         setupViews();
     }
-
+    
+    // Load the specified fragment into the fragment container
     private void loadFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
