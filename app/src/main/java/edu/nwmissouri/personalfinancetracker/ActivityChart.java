@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ActivityChart extends AppCompatActivity {
 
     private static final String TAG = "ActivityChart";
-
+    //This is the chart screen for the expenses
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
