@@ -24,7 +24,7 @@ public class SplashScreen extends AppCompatActivity {
         animateLogo();
         new Handler(Looper.getMainLooper()).postDelayed(this::handleNavigation, 3000);
     }
-
+    //This is the SplashScreen with the different animallogo and other logos
     private void animateLogo() {
 
 
