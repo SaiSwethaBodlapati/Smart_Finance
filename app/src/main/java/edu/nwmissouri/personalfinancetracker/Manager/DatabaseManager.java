@@ -2,7 +2,7 @@ package edu.nwmissouri.personalfinancetracker.Manager;
 
 public class DatabaseManager {
     private static DatabaseManager instance;
-
+    // These are the attributes for the database Manager
     private int fdAmount = 2000;
     private int stocksAmount = 2500;
     private int rdAmount = 1500;
@@ -39,6 +39,7 @@ public class DatabaseManager {
         return rdAmount;
     }
 
+    //Below are the getter and setter methods for the attributes
 
     public void setEmail(String email) {
        this.email = email;
@@ -56,7 +57,7 @@ public class DatabaseManager {
         this.mobile = mobile;
     }
 
-
+    // Below are the getter methods for the attributes
 
     public String getEmail() {
         return email;
