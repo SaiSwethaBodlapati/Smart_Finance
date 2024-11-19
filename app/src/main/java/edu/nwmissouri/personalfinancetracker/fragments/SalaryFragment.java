@@ -19,7 +19,7 @@ import edu.nwmissouri.personalfinancetracker.helper.AlertHelper;
 public class SalaryFragment extends Fragment {
 
     public SalaryFragment() {
-        // Required empty public constructor
+        // Need empty public constructor
     }
 
     @Override
