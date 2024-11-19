@@ -5,6 +5,7 @@ public class ExpenseItem {
     private String amount;
     private String date;
 
+    //Constructor 
     public ExpenseItem(String category, String amount, String date) {
         this.category = category;
         this.amount = amount;
