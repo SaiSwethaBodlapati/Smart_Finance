@@ -4,11 +4,11 @@ plugins {
 
 
 android {
-    namespace = "edu.nwmissouri.personalfinancetracker"
+    namespace = "edu.nwmissouri.smartfinance"
     compileSdk = 32
 
     defaultConfig {
-        applicationId = "edu.nwmissouri.personalfinancetracker"
+        applicationId = "edu.nwmissouri.smartfinance"
         minSdk = 25
         targetSdk = 32
         versionCode = 1
@@ -38,5 +38,10 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.4")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.0")
+
+    implementation("androidx.room:room-runtime:2.4.0")
+    annotationProcessor("androidx.room:room-compiler:2.4.0")
+
+    implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
 }
