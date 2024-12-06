@@ -1,5 +1,7 @@
 # SmartFinance App
 SmartFinance simplifies personal finance management by helping users track expenses, set budgets, and monitor spending trends with a user-friendly interface. It is designed to encourage better financial habits without overwhelming users with unnecessary features.
+## Repository Link
+[Smart Finance_App_Repository](https://github.com/SaiSwethaBodlapati/Smart_Finance)
 
 ##  Team Information:  
 - Sai Swetha Bodlapati 
