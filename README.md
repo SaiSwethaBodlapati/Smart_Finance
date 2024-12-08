@@ -3,6 +3,11 @@ SmartFinance simplifies personal finance management by helping users track expen
 ## Repository Link
 [Smart Finance_App_Repository](https://github.com/SaiSwethaBodlapati/Smart_Finance)
 
+## Pre-registered user names and passwords
+Username: swetha17@gmail.com   
+Password:swetha
+<br> (As we are using Room Database, the data is stored locally, so we need to register once after running the app on our system and login.)
+
 ##  Team Information:  
 - Sai Swetha Bodlapati 
 - Sai Shivani Yashaswini
